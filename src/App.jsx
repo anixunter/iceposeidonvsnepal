@@ -7,6 +7,7 @@ import AdminPanel from "./components/AdminPanel";
 
 function App() {
   const [data, setData] = useState({});
+  const [showAdminPanel, setShowAdminPanel] = useState(false);
   const [showRealtime, setShowRealtime] = useState(true);
   const [loading, setLoading] = useState(true);
 
@@ -37,14 +38,20 @@ function App() {
     return () => clearInterval(intervalId);
   }, []);
 
+  useEffect(() => {
+    // Check if the URL contains the admin query parameter
+    const queryParams = new URLSearchParams(window.location.search);
+    setShowAdminPanel(queryParams.get("admin") === "true");
+  }, []);
+  //You can access the AdminPanel component by navigating to '/?admin=true'
+
   if (loading) {
     return <div className="loader"></div>;
   }
 
-  const path = window.location.pathname;
-  // Check if the path is "/admin"
-  if (path === "/admin")
+  if (showAdminPanel) {
     return <AdminPanel challenges={data.challenges} data={data} />;
+  }
 
   return (
     <div className="main">
