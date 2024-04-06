@@ -43,7 +43,7 @@ function App() {
 
   const path = window.location.pathname;
   // Check if the path is "/admin"
-  if (path === "./admin")
+  if (path === "/admin")
     return <AdminPanel challenges={data.challenges} data={data} />;
 
   return (
