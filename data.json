@@ -1,0 +1,92 @@
+{
+  "data": {
+    "current_point": 50000,
+    "total_point": 100000,
+    "tiers": [
+      {
+        "id": 1,
+        "title": "Tier 1",
+        "until_pts": 20000,
+        "description": "Transportation limited to walking, scooters, bikes and public transport. Accommodation must be basic, with the lowest-rated hotels and access to only vending machine food, instant ramen noodles and free samples"
+      },
+      {
+        "id": 2,
+        "title": "Tier 2",
+        "until_pts": 50000,
+        "description": "Accomadation must be basic with amenities, with meals primarily from convenience stores (コンビニ) such as 7/11"
+      },
+      {
+        "id": 3,
+        "title": "Tier 3",
+        "until_pts": 100000,
+        "description": "Access to higher-tier transportation options like Ubers, taxis, or car rentals. Accommodations upgrade to 5-star hotels, and access to all restaurants"
+      }
+    ],
+    "challenges": [
+      {
+        "id": 1,
+        "title": "Purchase a new outfit of chat's choice to wear all day",
+        "point_reward": 1000,
+        "completed_at": "2024-04-05T15:50:41.131Z"
+      },
+      {
+        "id": 2,
+        "title": "Find the mysterious old man and ask about his life story",
+        "point_reward": 2500,
+        "completed_at": "2024-04-05T15:50:47.755Z"
+      },
+      {
+        "id": 3,
+        "title": "Purchase 10 Onigiris and sell them for profit (+300 points per sale, 3000 total)",
+        "point_reward": 3000,
+        "completed_at": "2024-04-05T15:56:10.764Z"
+      },
+      {
+        "id": 4,
+        "title": "Do not say \"bro / dude / hell / fuck\" all day. Balance starts at +5000 points. -500 points from the 5k balance every fail, past that starts deducting from actual points",
+        "point_reward": 5000,
+        "completed_at": "2024-04-05T15:56:19.700Z"
+      },
+      {
+        "id": 5,
+        "title": "Ice Vs Joel round 2 - Sushi Challenge. +1000 points for each plate you eat. -500 points for each plate Joel eats.",
+        "point_reward": 1000,
+        "completed_at": "2024-04-05T15:56:23.628Z"
+      },
+      {
+        "id": 6,
+        "title": "Explore the JDM car scene in Daikoku",
+        "point_reward": 4000,
+        "completed_at": "2024-04-05T15:58:35.821Z"
+      },
+      {
+        "id": 7,
+        "title": "Lock in a 2nd date with maya for today or in the coming days. Make reservations to confirm.",
+        "point_reward": 5000,
+        "completed_at": null
+      },
+      {
+        "id": 8,
+        "title": "Take a gamble. Play a best of 5 game of rock paper scissors with a stranger. If you win, stay at the four seasons for 1 night. If you lose, -6000 points.",
+        "point_reward": 0,
+        "completed_at": "2024-04-05T15:47:36.467Z"
+      },
+      {
+        "id": 9,
+        "title": "Make someone random kick streamer. Buy them all the gears and stuff.",
+        "point_reward": 10000,
+        "completed_at": null
+      },
+      {
+        "id": 10,
+        "title": "Have orgy with kang and other japanese dudes and girls",
+        "point_reward": 10000,
+        "completed_at": "2024-04-05T16:01:12.741Z"
+      }
+    ],
+    "daily_scenarios": {
+      "object": "luffy figure",
+      "word": "chotto mathe(slow down)"
+    }
+  }
+}

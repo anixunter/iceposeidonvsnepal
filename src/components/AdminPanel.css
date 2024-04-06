@@ -1,0 +1,58 @@
+.main-admin-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3.5rem;
+}
+
+.admin-container {
+  background-color: #111827;
+  max-width: 768px;
+  padding: 1.5rem;
+  border-radius: 1rem;
+}
+
+.challenges-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.challenge-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem;
+  margin-bottom: 0.75rem;
+  color: rgb(209 213 219);
+  background-color: rgb(31 41 55);
+  border-radius: 0.5rem;
+  width: 100%;
+}
+
+.challenge-list-text {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+}
+
+.mark-as-complete-button {
+  border-radius: 2rem;
+  padding: 0.5rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  cursor: pointer;
+  background-color: rgb(55 65 81);
+}
+.completed-button {
+  border-radius: 2rem;
+  padding: 0.5rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  cursor: default;
+  color: rgb(156 163 175);
+  background-color: rgb(37, 151, 79);
+}

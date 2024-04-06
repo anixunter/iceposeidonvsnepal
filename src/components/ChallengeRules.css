@@ -1,0 +1,112 @@
+.challenge-rules-container {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.point-system-heading {
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+.rules-text {
+  color: rgb(156 163 175);
+}
+.tiers-list {
+  margin-top: 1.5rem;
+}
+.tiers-list-heading {
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+.tiers-disclosure {
+  margin-top: 0.375rem;
+}
+.disclosure {
+  display: flex;
+  align-items: center;
+  color: rgb(209 213 219);
+  background-color: rgb(31 41 55);
+  margin-top: 0.75rem;
+  padding: 0.375rem;
+  width: 100%;
+  border: 1px solid rgb(55 65 81);
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+.points-box {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  padding: 0.125rem;
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+  background-color: rgb(55 65 81);
+  border-radius: 0.375rem;
+  margin-left: 0.375rem;
+}
+.current-tier {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  padding: 0.125rem;
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+  background-color: rgb(109 40 217);
+  border-radius: 0.375rem;
+  margin-left: 0.375rem;
+}
+.carat-icon {
+  display: flex;
+  margin-left: auto;
+}
+.carat-icon > svg {
+  width: 1.25rem;
+}
+.disclosure-content {
+  color: rgb(209 213 219);
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.point-loss {
+  margin-top: 1.5rem;
+}
+
+.point-loss-heading {
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+.donate-heading {
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  margin-top: 1rem;
+}
+.text {
+  color: rgb(156 163 175);
+}
+
+.daily-scenarios {
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  margin-top: 1rem;
+}
+
+.daily-scenarios-grid {
+  display: grid;
+  background-color: rgb(31 41 55);
+  border: 1px solid rgb(55 65 81);
+  border-radius: 0.75rem;
+  width: 100%;
+  margin-top: 0.75rem;
+}
+
+.grid-item {
+  padding: 0.5rem;
+}
+
+.line-between-grid {
+  background-color: rgb(55 65 81);
+  width: 100%;
+  height: 1px;
+}
